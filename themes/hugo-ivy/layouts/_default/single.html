@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <header class="title">
+        {{ partial "meta.html" . }}
+    </header>
+
+    {{ if .Params.toc }}
+        {{ .TableOfContents }}
+    {{ end }}
+    
+    {{ .Content }}
+{{ end }}
