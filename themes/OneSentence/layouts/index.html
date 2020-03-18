@@ -1,7 +1,3 @@
-{{ define "main" }}
-    <header class="title">
-        {{ partial "meta.html" . }}
-    </header>
-
-    {{ partial "posts_list.html" . }}
+{{ define "main-content" }}
+    {{ partial "list_posts.html" . }}
 {{ end }}

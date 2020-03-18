@@ -9,10 +9,13 @@
         {{ block "header" .}} {{ end }}
 
         <article class="main">
-            {{ block "main" . }} {{ end }}
+            {{ block "main-meta" .}} {{ end }}
 
-            {{ block "footer" . }} {{ end }}
+            {{ block "main-content" . }} {{ end }}
+
+            
         </article>
+        {{ block "footer" . }} {{ end }}
 
         {{ template "_internal/google_analytics.html" . }}
 

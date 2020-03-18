@@ -100,6 +100,7 @@ li {
 
 a {
   color: black;
+  /* color: rgb(221, 0, 0); */
   text-decoration: none;
   padding-bottom: 2px;
   /* border-bottom: 1px solid; */

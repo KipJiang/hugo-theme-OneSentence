@@ -1,5 +1,7 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
+    <header class="title">
+        {{ partial "meta.html" . }}
+    </header>
 
-    {{ partial "posts_list.html" . }}
+    {{ partial "list_posts.html" . }}
 {{ end }}
