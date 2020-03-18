@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "One Sentence"
-theme = "hugo-ivy"
+title = "Kip Jiang"
+theme = "OneSentence"
 
 googleAnalytics = ""
 disqusShortname = ""
@@ -34,8 +34,8 @@ footnotereturnlinkcontents = "↩"
     url = "/index.xml"
 
 [params]
-    description = "A Hugo theme ported from the static site generator Ivy."
-    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+    description = "A Hugo theme ported from the static site generator Ivy. 没有一个春天不会到来！"
+    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 | [Github](https://github.com/yihui) | [Home](/)"
 
 [params.utteranc]   # utteranc is a comment system based on GitHub issues. see https://utteranc.es
     enable = true
