@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Kip Jiang"
 theme = "OneSentence"
+author = "Kip"
 
 googleAnalytics = ""
 disqusShortname = ""
@@ -35,7 +36,7 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = "A Hugo theme ported from the static site generator Ivy. 没有一个春天不会到来！"
-    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 | [Github](https://github.com/yihui) | [Home](/)"
+    footer = "&copy; [Kip Jiang](/) 2020 | [Github](https://github.com/KipJiang) | [Home](/)"
 
 [params.utteranc]   # utteranc is a comment system based on GitHub issues. see https://utteranc.es
     enable = true

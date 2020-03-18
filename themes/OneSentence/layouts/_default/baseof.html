@@ -6,16 +6,15 @@
     {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
     <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}">
 
-        {{ block "header" .}} {{ end }}
+        {{ block "header" . }} {{ end }}
 
         <article class="main">
-            {{ block "main-meta" .}} {{ end }}
+            {{ block "meta" . }} {{ end }}
 
-            {{ block "main-content" . }} {{ end }}
+            {{ block "content" . }} {{ end }}
 
-            
+            {{ block "footer" . }} {{ end }}
         </article>
-        {{ block "footer" . }} {{ end }}
 
         {{ template "_internal/google_analytics.html" . }}
 

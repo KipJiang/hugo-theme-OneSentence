@@ -1,3 +1,29 @@
-{{ define "main-content" }}
-    {{ partial "list_posts.html" . }}
+{{ define "content" }}
+    <!-- /content/_index.md -->
+    {{ if .Content }}
+        <div class="content">
+        {{ .Content }}
+        </div>
+    {{ end }}
+
+    {{ range .Site.RegularPages.GroupByDate "2006" }}
+    <div class="posts-group">
+        <div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
+        <ul class="posts-list">
+            {{ range .Pages }}
+            <li>
+                <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ if .Description }}
+                <p class="excerpt">{{ .Description }}</p>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+{{ end }}
+
+{{ define "footer" }}
+    {{ partial "footer.html" . }}
 {{ end }}

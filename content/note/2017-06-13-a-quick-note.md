@@ -1,10 +1,16 @@
 ---
 title: A Quick Note on Two Beautiful Websites
+date: 2017-06-13
 author: Yihui Xie
-date: '2017-06-13'
+
+toc: true
+slug: a-quick-note
+description: This is a quik note.
+
 categories:
   - Example
-slug: a-quick-note
+tags:
+  - model
 ---
 
 To me, the two most impressive websites based on **blogdown** are:

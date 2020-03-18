@@ -1,7 +1,37 @@
-{{ define "main" }}
+{{ define "meta" }}
+    {{ if not .IsHome }}
     <header class="title">
-        {{ partial "meta.html" . }}
-    </header>
+        <h1>{{ .Title }}</h1>
 
-    {{ partial "list_posts.html" . }}
+        {{ with .Params.subtitle }}
+            <h1><span class="subtitle">{{ . }}</span></h1>
+        {{ end }}
+
+    </header>
+    {{ end }}
+{{ end }}
+
+{{ define "content" }}
+    <!-- /content/abc/_index.md -->
+    {{ if .Content }}
+    <div class="content">
+        {{ .Content }}
+    </div>
+    <hr>
+    {{ end }}
+
+    {{ range .Pages.GroupByDate "2006" }}
+    <div class="posts-group">
+        <div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
+        <ul class="posts-list">
+            {{ range .Pages }}
+            <li>
+                <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <p class="excerpt">{{ .Description }}</p>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
 {{ end }}

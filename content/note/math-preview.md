@@ -1,8 +1,12 @@
 ---
 title: Math Preview
+date: 2019-03-04T16:01:23+08:00
 author: Murray Bourne
-date: '2019-03-04T16:01:23+08:00'
-lastmod: '2019-03-05T16:01:23+08:00'
+
+toc: true
+slug:
+description: 
+
 tags:
   - preview
   - math
@@ -11,7 +15,6 @@ categories:
   - docs
   - math
   - index
-toc: true
 ---
 
 [KaTeX and MathJax Comparison Demo, currently processed as KaTex](https://www.intmath.com/cg5/katex-mathjax-comparison.php)

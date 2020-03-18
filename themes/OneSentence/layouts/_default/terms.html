@@ -1,14 +1,25 @@
-{{ define "main" }}
-    <h2>{{ .Title }}</h2>
+{{ define "meta" }}
+    {{ if not .IsHome }}
+    <header class="title">
+        <h1>{{ .Title }}</h1>
 
-    <ul class="terms">
-        {{ range $key, $value := .Data.Terms }}
-            <li>
-                <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
-                    {{ $key }}
-                </a>
-                ({{ len $value }})
-            </li>
+        {{ with .Params.subtitle }}
+            <h1><span class="subtitle">{{ . }}</span></h1>
         {{ end }}
-    </ul>
+
+    </header>
+    {{ end }}
+{{ end }}
+
+{{ define "content" }}
+<ul class="terms">
+    {{ range $key, $value := .Data.Terms }}
+        <li>
+            <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
+                {{ $key }}
+            </a>
+            ({{ len $value }})
+        </li>
+    {{ end }}
+</ul>
 {{ end }}

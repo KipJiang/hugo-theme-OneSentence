@@ -1,7 +1,9 @@
 ---
 title: Syntax Highlighting
-date: '2011-08-30T16:01:23+08:00'
-lastmod: '2017-08-30T16:01:23+08:00'
+date: 2011-08-30T16:01:23+08:00
+
+toc: true
+
 tags:
   - preview
   - Syntax-Highlighting
@@ -9,7 +11,6 @@ tags:
 categories:
   - Syntax-Highlighting
   - index
-toc: true
 ---
 
 More detail: [Syntax Highlighting | Hugo](https://gohugo.io/content-management/syntax-highlighting/)

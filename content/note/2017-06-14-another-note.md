@@ -1,7 +1,12 @@
 ---
 title: Another Note on A blogdown Tutorial
+date: 2017-06-14
 author: Yihui Xie
-date: '2017-06-14'
+
+toc: true
+slug:
+decription: A awesome tutorial
+
 categories:
   - Example
 tags:

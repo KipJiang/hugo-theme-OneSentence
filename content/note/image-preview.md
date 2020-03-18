@@ -1,8 +1,11 @@
 ---
 title: Image Preview
-date: '2018-03-03T16:01:23+08:00'
-lastmod: '2018-03-04T16:01:23+08:00'
-draft: false
+date: 2018-03-03T16:01:23+08:00
+author: unkown
+
+toc: true
+slug:
+description: Image Preview used in js
 tags:
   - preview
   - image
@@ -12,7 +15,6 @@ categories:
   - docs
   - shortcodes
   - index
-toc: true
 ---
 
 Thanks for [liwenyip/hugo-easy-gallery](https://github.com/liwenyip/hugo-easy-gallery) & [Zebradil · Pull Request #48](https://github.com/xianmin/hugo-theme-jane/pull/48) .

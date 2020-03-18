@@ -1,11 +1,16 @@
-{{ define "main" }}
-    <header class="title">
-        {{ partial "meta.html" . }}
-    </header>
+{{ define "meta" }}
+    {{ partial "meta.html" . }}
+{{ end }}
+
+{{ define "content" }}
 
     {{ if .Params.toc }}
         {{ .TableOfContents }}
     {{ end }}
     
     {{ .Content }}
+{{ end }}
+
+{{ define "footer" }}
+    {{ partial "footer.html" . }}
 {{ end }}
