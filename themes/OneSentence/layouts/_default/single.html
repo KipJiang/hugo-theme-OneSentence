@@ -1,5 +1,5 @@
-{{ define "meta" }}
-    {{ partial "meta.html" . }}
+{{ define "section" }}
+    {{ partial "section.html" . }}
 {{ end }}
 
 {{ define "content" }}
@@ -9,8 +9,4 @@
     {{ end }}
     
     {{ .Content }}
-{{ end }}
-
-{{ define "footer" }}
-    {{ partial "footer.html" . }}
 {{ end }}

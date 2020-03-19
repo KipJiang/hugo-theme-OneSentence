@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-    {{ block "head" . }} {{ end }}
+    {{ block "header" . }} {{ end }}
 
     {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
     <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}">
 
-        {{ block "header" . }} {{ end }}
+        {{ block "navigator" . }} {{ end }}
 
         <article class="main">
-            {{ block "meta" . }} {{ end }}
+            {{ block "section" . }} {{ end }}
 
             {{ block "content" . }} {{ end }}
 
-            {{ block "footer" . }} {{ end }}
+            {{ partial "footer.html" . }}
         </article>
 
         {{ template "_internal/google_analytics.html" . }}

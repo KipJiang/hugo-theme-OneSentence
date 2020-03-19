@@ -30,13 +30,10 @@ footnotereturnlinkcontents = "↩"
     name = "Tags"
     url = "/tags/"
     weight = 4
-[[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
 
 [params]
-    description = "A Hugo theme ported from the static site generator Ivy. 没有一个春天不会到来！"
-    footer = "&copy; [Kip Jiang](/) 2020 | [Github](https://github.com/KipJiang) | [Home](/)"
+    description = "没有一个春天不会到来！"
+    footer = "&copy; 2020 &#183; [Kip Jiang](/) &#183; [Github](https://github.com/KipJiang)"
 
 [params.utteranc]   # utteranc is a comment system based on GitHub issues. see https://utteranc.es
     enable = true
