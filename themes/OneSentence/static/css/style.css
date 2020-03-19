@@ -111,7 +111,7 @@ a {
 }
 
 a:hover {
-  color: #32f;
+  color: #33b;
   text-decoration: none;
 }
 
@@ -265,6 +265,10 @@ body {
 
 .description {
   margin: 0.5em 1.3em;
+}
+
+.hljs {
+  padding: 1em;
 }
 
 /* Footnotes */

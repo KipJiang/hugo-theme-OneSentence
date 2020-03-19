@@ -1,13 +1,26 @@
-{{ define "section" }}
-    {{ partial "section.html" . }}
+{{ define "article-meta" }}
+  {{ if not .IsHome }}
+    <header class="title">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <h1><span class="subtitle">{{ . }}</span></h1>
+      {{ end }}
+      <h3>
+      {{ with .Params.author }}{{ . }}{{ end }}
+        {{ if .Params.date }}
+        {{ if .Params.author }} | {{ end }} {{ .Date.Format "2006-01-02" }}
+      {{ end }}
+      </h3>
+      <hr>
+    </header>
+  {{ end }}
 {{ end }}
 
 {{ define "content" }}
-
-    {{ if .Params.toc }}
-        {{ .TableOfContents }}
-    {{ end }}
-    <div class="content" >
-        {{ .Content }}
-    </div>
+  {{ if .Params.toc }}
+    {{ .TableOfContents }}  
+  {{ end }}
+  <div class="post-content" >
+    {{ .Content }}
+  </div>
 {{ end }}
