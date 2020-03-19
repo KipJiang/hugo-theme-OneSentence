@@ -32,8 +32,8 @@ footnotereturnlinkcontents = "↩"
     weight = 4
 
 [params]
-    description = "没有一个春天不会到来！"
-    footer = "&copy; 2020 &#183; [Kip Jiang](/) &#183; [Github](https://github.com/KipJiang)"
+    description = "This Hugo theme was ported from Ivy, a minimalist website generator built in Python. 没有一个春天不会到来！"
+    footer = "[Kip Jiang](/) &#183; [Github](https://github.com/KipJiang)"
 
 [params.utteranc]   # utteranc is a comment system based on GitHub issues. see https://utteranc.es
     enable = true

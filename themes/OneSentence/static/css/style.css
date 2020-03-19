@@ -35,7 +35,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
-  margin: 60px 0 30px;
+  margin: 20px 0;
   line-height: 1.25;
   text-align: center;
 }
@@ -62,6 +62,10 @@ blockquote {
   border-left: 3px solid #ddd;
 }
 
+.content a {
+  color: rgb(221, 0, 0);
+}
+
 /* Code */
 
 pre, code {
@@ -74,11 +78,11 @@ pre code {
   box-shadow: 5px 5px 5px #eee;
   padding: 1em;
   overflow-x: auto;
-  line-height: 1.75;
+  line-height: 1.5;
 }
 
 code {
-  background: #f9f9f9;
+  background: #f1f1f1;
 }
 
 pre code {
@@ -92,7 +96,7 @@ ul, ol {
 }
 
 li {
-  margin: 4px 0;
+  margin: 5px 0;
   padding: 0;
 }
 
@@ -107,7 +111,7 @@ a {
 }
 
 a:hover {
-  color: #33f;
+  color: #32f;
   text-decoration: none;
 }
 
@@ -122,9 +126,9 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid;
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 0;
-  max-width: 300px;
+  max-width: auto;
 }
 
 .copyright {
@@ -147,28 +151,30 @@ hr {
 }
 
 .comments {
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 /* Layout */
 
 body {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 30px 0;
+  margin: auto;
+  padding: 3em 0;
 }
 
 .header {
-  width: 260px;
-  padding: 20px 50px 20px 10px;
+  text-align: right;
+  /* position: fixed; */
   float: left;
+  margin-left: -21em;
+  width: 15em;
+  /* top: 5em; */
 }
 
 .main {
-  width: 900px;
-  padding: 32px 10px 20px 50px;
-  margin-left: 260px;
-  border-left: 1px solid black;
+  width: 800px;
+  padding: 2em 3em;
+  margin: auto;
+  /* border-left: 1px solid gray; */
   min-height: calc(100vh - 60px);
 }
 
@@ -188,8 +194,13 @@ body {
 }
 
 .header .tagline {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
   text-align: right;
+}
+
+.header .author {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header .menu {
@@ -234,6 +245,25 @@ body {
 .subtitle {
   font-size: .9em;
   color: #666;
+}
+
+.list-year {
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.post-date{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+.list-item a {
+  color: rgb(221, 0, 0);
+  margin-left: 1em;
+}
+
+.description {
+  margin: 0.5em 1.3em;
 }
 
 /* Footnotes */

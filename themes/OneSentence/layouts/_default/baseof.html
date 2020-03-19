@@ -5,10 +5,9 @@
 
     {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
     <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}">
-
-        {{ block "navigator" . }} {{ end }}
-
         <article class="main">
+            {{ block "navigator" . }} {{ end }}
+
             {{ block "section" . }} {{ end }}
 
             {{ block "content" . }} {{ end }}

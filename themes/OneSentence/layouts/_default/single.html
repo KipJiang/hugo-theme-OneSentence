@@ -7,6 +7,7 @@
     {{ if .Params.toc }}
         {{ .TableOfContents }}
     {{ end }}
-    
-    {{ .Content }}
+    <div class="content" >
+        {{ .Content }}
+    </div>
 {{ end }}

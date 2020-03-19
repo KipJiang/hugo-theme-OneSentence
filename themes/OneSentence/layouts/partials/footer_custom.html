@@ -5,9 +5,11 @@
 </nav>
 {{ end }}
 
-{{ if not .Pages }}
-    {{ partial "comments.html" . }}
-{{ end }}
+<div class="comments" >
+    {{ if not .Pages }}
+        {{ partial "comments.html" . }}
+    {{ end }}
+</div>
 
 <script src="//yihui.org/js/math-code.js"></script>
 <script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
