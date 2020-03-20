@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'angelina';
+  src: url(../font/angelina.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: Optima, 'Lucida Sans', Calibri, Candara, Arial, 'source-han-serif-sc', 'Source Han Serif SC', 
   'Source Han Serif CN', 'Source Han Serif TC', 'Source Han Serif TW', 'Source Han Serif', 'Songti SC', 

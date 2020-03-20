@@ -32,7 +32,8 @@ footnotereturnlinkcontents = "↩"
     weight = 4
 
 [params]
-    description = "This Hugo theme was ported from Ivy, a minimalist website generator built in Python. 没有一个春天不会到来！"
+    description = "Winter always passes, and spring is coming!"
+    # "All theory is gray, my friend. But forever green is the tree of life."
     footer = "[Kip Jiang](/) &#183; [Github](https://github.com/KipJiang)"
 
 # comments configure
