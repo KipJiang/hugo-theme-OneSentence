@@ -1,9 +1,3 @@
-@import url(html.css);
-@import url(mobile.css);
-@import url(fonts.css);
-@import url(body.css);
-@import url(code.css);
-
 /* 
  * Header 
  */
@@ -72,7 +66,7 @@
   padding: 2em 3em;
   margin: auto;
   border-left: 1px gray;
-  border-left-style: dashed;
+  /* border-left-style: dashed; */
   min-height: calc(100vh - 60px);
   font-family: Georgia, 'Microsoft YaHei', serif;
   font-size: 1em;
@@ -96,6 +90,7 @@
   font-weight: normal;
   padding: auto;
   text-align: right;
+  color: #aaa;
 }
 
 .title hr {
