@@ -131,11 +131,17 @@
 }
 
 /* article footer */
+.post-categories {
+  margin-top: .5em;
+  margin-left: .5em;
+}
+
 .post-nav {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  margin: 2em 0;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .nav-next {

@@ -8,7 +8,7 @@
       <h3>
       {{ with .Params.author }}{{ . }}{{ end }}
       {{ if .Params.date }}
-        {{ if .Params.author }} &#183; {{ end }} {{ .Date.Format "2006-01-02" }}
+        {{ if .Params.author }} &#183; {{ end }} {{ .Date.Format "2006-01-02" }} &#183; Words: {{ .WordCount }}
       {{ end }}
       </h3>
       <hr>

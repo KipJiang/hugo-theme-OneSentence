@@ -1,4 +1,15 @@
 <footer>
+  {{ with .Params.categories }}
+    <div class="post-categories">
+      {{ range . }}
+        {{- $name := . -}}
+        {{- with $.Site.GetPage "taxonomy" (printf "categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "categories/%s" ($name | urlize))) -}}
+          <a href="{{ .Permalink }}"> &#183; {{ $name }} </a> <br>
+        {{ end -}}
+      {{ end }}
+    </div>
+  {{ end }}
+
   {{ if and .IsPage (not .Params.Notshowhome) }}
   <nav class="post-nav">
     <span class="nav-prev">{{ with .Prev }}&larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</span>
