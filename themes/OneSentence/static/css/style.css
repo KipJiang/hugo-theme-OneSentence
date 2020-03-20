@@ -136,6 +136,14 @@
   margin-left: .5em;
 }
 
+.post-categories a {
+  color: #dd0000;
+}
+
+.post-categories a:hover {
+  color: #33b;
+}
+
 .post-nav {
   display: flex;
   justify-content: space-between;
