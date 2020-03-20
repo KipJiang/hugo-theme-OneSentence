@@ -1,17 +1,18 @@
 ---
-title: (Hu)go Template Primer
-description: "Hugo Template Primer"
+title: "(Hu)go Template Primer"
+date: 2014-04-02
+notShowHome: false
+
+toc: true
+slug: hugo-template-primer
+description: Hugo Template Primer
+
 tags:
-    - go
-    - golang
     - templates
     - themes
-    - development
-date: '2014-04-02'
 categories:
     - Development
-    - golang
-    - index
+    - Golang
 ---
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for

@@ -1,6 +1,7 @@
 ---
-title: Lorem Ipsum
+title: "Lorem Ipsum"
 date: 2015-07-23
+notShowHome: false
 
 categories:
   - Example

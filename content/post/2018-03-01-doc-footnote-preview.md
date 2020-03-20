@@ -1,16 +1,20 @@
 ---
-title: Jane-Theme Footnote Preview
-date: '2018-03-01T16:01:23+08:00'
-lastmod: '2018-03-01T16:01:23+08:00'
+title: Footnote Preview
+date: 2018-03-01T16:01:23+08:00
+author: Xianmin
+notShowHome: false
+
+toc: true
+slug: footnote-notes
+description: The footnote preview in Hugo
+
 tags: 
     - footnote
     - markdown
-    - tag-11
+    - tag
 categories:
-    - docs
-    - index
-author: xianmin
-toc: true
+    - Docs
+    - Index
 ---
 
 Hugo-theme-jane optimized for footnote. When you mouse hover the footnote[^example] , footnote content will be displayed.

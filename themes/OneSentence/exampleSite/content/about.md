@@ -1,9 +1,14 @@
 ---
-title: About Hugo Ivy
-author: Yihui Xie
-date: '2017-08-06'
+title: "About Hugo OneSentence"
+date: 2020-03-21T01:01:52+08:00
+author: Kip
+notShowHome: true
 ---
 
-This Hugo theme was ported from [Ivy](https://github.com/dmulholland/ivy), a minimalist website generator built in Python. I don't have time to document this theme. You have to read the source code to understand what it can do. All I can say for now is that I love it. It is clean, minimal, and responsive.
+This is a hugo theme ported from [hugo-ivy](https://github.com/yihui/hugo-ivy), a simple and literal blog theme, which created by [YihuiXie](https://yihui.org/).
 
-I hope you will enjoy this theme. The source code is [on Github](https://github.com/yihui/hugo-ivy). Happy hacking!
+And I am also inspired by [山羊博客](http://blog.fungo.me/), a very simple and clean blog.
+
+I hope you will love this theme, and write more posts.
+
+The source code is [on Github]().

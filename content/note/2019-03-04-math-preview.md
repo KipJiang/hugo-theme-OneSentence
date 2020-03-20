@@ -2,19 +2,20 @@
 title: Math Preview
 date: 2019-03-04T16:01:23+08:00
 author: Murray Bourne
+notshowhome: false
 
 toc: true
-slug:
-description: 
+slug: math-preview
+description: Math notation and formula preview in Hugo
 
 tags:
   - preview
   - math
-  - tag-6
+  - tag
 categories:
-  - docs
-  - math
-  - index
+  - Docs
+  - Math
+  - Index
 ---
 
 [KaTeX and MathJax Comparison Demo, currently processed as KaTex](https://www.intmath.com/cg5/katex-mathjax-comparison.php)

@@ -1,6 +1,8 @@
 ---
-title: Lorem Ipsum
-date: '2015-07-23'
+title: "Lorem Ipsum"
+date: 2015-07-23
+notShowHome: false
+
 categories:
   - Example
 tags:

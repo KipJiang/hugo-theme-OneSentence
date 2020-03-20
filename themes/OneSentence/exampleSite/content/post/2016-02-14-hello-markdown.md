@@ -1,12 +1,17 @@
 ---
 title: A Plain Markdown Post
 author: Yihui Xie
-date: '2016-02-14'
+date: 2016-02-14
+notShowHome: false
+
+toc: true
+slug: plain-markdown-post
+description: 
+
 categories:
   - Example
   - Hugo
 tags:
-  - blogdown
   - Markdown
   - MathJax
   - Pandoc

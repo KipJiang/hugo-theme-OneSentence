@@ -1,16 +1,20 @@
 ---
 title: Syntax Highlighting
 date: 2011-08-30T16:01:23+08:00
+author: Hugo
+notshowhome: false
 
 toc: true
+slug: syntax-highlighting-preview
+description: Syntax Highlighting Preview in Hugo = ^ =
 
 tags:
   - preview
-  - Syntax-Highlighting
-  - tag-5
+  - highlighting
+  - tag
 categories:
   - Syntax-Highlighting
-  - index
+  - Index
 ---
 
 More detail: [Syntax Highlighting | Hugo](https://gohugo.io/content-management/syntax-highlighting/)

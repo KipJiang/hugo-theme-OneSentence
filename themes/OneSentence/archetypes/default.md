@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-author: {{ .Site.Author }}
+author: 
 notShowHome: false
 
 toc: true

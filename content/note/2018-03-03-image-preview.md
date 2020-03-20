@@ -4,17 +4,17 @@ date: 2018-03-03T16:01:23+08:00
 author: unkown
 
 toc: true
-slug:
-description: Image Preview used in js
+slug: image-preview
+description: Image Preview used in this theme
 tags:
   - preview
   - image
   - shortcodes
-  - tag-7
+  - tag
 categories:
-  - docs
-  - shortcodes
-  - index
+  - Docs
+  - Shortcodes
+  - Index
 ---
 
 Thanks for [liwenyip/hugo-easy-gallery](https://github.com/liwenyip/hugo-easy-gallery) & [Zebradil · Pull Request #48](https://github.com/xianmin/hugo-theme-jane/pull/48) .
@@ -114,7 +114,7 @@ To specify a directory of image files:
   - not set - smooth transition (default)
   - `none` - hard transition
 
-![first](https://tse1-mm.cn.bing.net/th/id/OIP.q2VueH4pq580yfKsJDBFrgHaE5?w=299&h=195&c=7&o=5&pid=1.7)
+![first](https://tse1-mm.cn.bing.net/th/id/OIP.q2VueH4pq580yfKsJDBFrgHaE5?w=700&h=600&c=7&o=5&pid=1.7)
 
 ![second](https://tse4-mm.cn.bing.net/th/id/OIP.nGg0OQZ0fCoBOPGjGqCX2gHaE7?w=300&h=195&c=7&o=5&pid=1.7)
 

@@ -1,20 +1,20 @@
 ---
-title: Creating a New Theme
+title: "English Creating a New Theme"
+date: 2017-08-31T15:43:48+08:00
 author: Michael Henderson
-date: '2014-09-28'
-toc: true
-tags: 
-    - go
-    - golang
-    - templates
-    - themes
-    - development
-categories:
-    - Development
-    - golang
-    - index
----
+notShowHome: false
 
+toc: true
+slug: createing-new-theme
+description: Creating a Hugo theme in English
+
+tags:
+  - preview
+  - english
+categories:
+  - English
+  - Theme
+---
 
 ## Introduction
 
@@ -390,7 +390,7 @@ $
 
 Hugo does two things when generating the site. It uses templates to transform content into HTML and it copies static files into the site. Unlike content, static files are not transformed. They are copied exactly as they are.
 
-Hugo assumes that your site will use both CSS and JavaScript, so it creates directories in your theme to hold them. Remember opinions? Well, Hugo's opinion is that you'll store your CSS in a directory named css/ and your JavaScript in a directory named js/. If you don't like that, you can change the directory names in your theme directory or even delete them completely. Hugo's nice enough to offer its opinion, then behave nicely if you disagree.
+Hugo assumes that your site will use both CSS and JavaScript, so it creates directories in your theme to hold them. Remember opinions? Well, Hugo's opinion is that you'll store your CSS in a directory named css/ and your JavaScript in a directory named js/. If you don't like that, you can change the directory names in your theme directory or jane delete them completely. Hugo's nice enough to offer its opinion, then behave nicely if you disagree.
 
 ```
 $ find themes/zafta -type d | xargs ls -ld
@@ -731,11 +731,11 @@ $ cat public/index.html
 <!DOCTYPE html>
 <html>
 <body>
-
+ 
     <h1>second</h1>
-
+ 
     <h1>first</h1>
-
+ 
 </body>
 </html>
 $
@@ -879,11 +879,11 @@ $ cat public/index.html
 <!DOCTYPE html>
 <html>
 <body>
-
+ 
     <h1><a href="/post/second/">second</a></h1>
-
+ 
     <h1><a href="/post/first/">first</a></h1>
-
+ 
 </body>
 </html>
 
