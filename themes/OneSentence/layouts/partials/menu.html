@@ -5,7 +5,7 @@
     <span class="icon open-icon">☰</span>
     <span class="text">Menu</span>
   </label>
-  <ul class="menu-item">
+  <ul>
     {{ $currentPage := . }}
     {{ range (default .Site.Menus.main (index .Site.Menus ($.Scratch.Get "section"))) }}
       <li{{ if eq .URL $currentPage.RelPermalink }} class="active"{{ end }}>

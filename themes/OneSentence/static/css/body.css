@@ -10,28 +10,28 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 1em 0 0 0;
   line-height: 1.5;
-  text-align: center;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 1.75em;
   font-weight: bold;
+  text-align: center;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 h3, h4, h5, h6 {
-  font-size: 19px;
+  font-size: 1.25em;
   text-align: left;
 }
 
 /* Block Quote */
 blockquote {
   padding: 0 1em;
-  margin: 14px 0;
+  margin: auto;
   border: .1em dashed #d0dfda;
   border-radius: .5em;
   color: #393939;
@@ -41,24 +41,13 @@ blockquote {
 }
 
 /* Lists */
-/* ul, ol {
-  padding: 0 0 0 20px;
+ul, ol {
+  padding: 0 0 0 1.5em;
 }
 
 li {
-  margin: 5px 0;
-  padding: 0;
-} */
-li {
-  padding:.2em 0;
-}
-
-ol, ul {
-  list-style-position:inside;
-}
-
-ol ul, ul ol, ul ul, ol ol {
-  margin-left:1em;
+  margin: .5em 0;
+  padding: auto;
 }
 
 /* Links */
@@ -70,7 +59,7 @@ a {
 a:hover {
   color: #33b;
   padding-bottom: .1em;
-  border-bottom: .1ex dashed
+  border-bottom: .1ex dashed;
 }
 
 sup a {
@@ -81,7 +70,7 @@ hr {
   display: block;
   height: 1px;
   margin: 30px auto;
-  border-top: .1ex dashed;
+  border-top: 1px dotted;
   max-width: auto;
 }
 

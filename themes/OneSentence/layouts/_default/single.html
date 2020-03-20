@@ -3,12 +3,12 @@
     <header class="title">
       <h1>{{ .Title }}</h1>
       {{ with .Params.subtitle }}
-        <h1><span class="subtitle">{{ . }}</span></h1>
+        <h2><span>{{ . }}</span></h2>
       {{ end }}
       <h3>
       {{ with .Params.author }}{{ . }}{{ end }}
-        {{ if .Params.date }}
-        {{ if .Params.author }} | {{ end }} {{ .Date.Format "2006-01-02" }}
+      {{ if .Params.date }}
+        {{ if .Params.author }} &#183; {{ end }} {{ .Date.Format "2006-01-02" }}
       {{ end }}
       </h3>
       <hr>
