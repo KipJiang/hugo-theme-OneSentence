@@ -1,97 +1,100 @@
 <!-- utteranc -->
-<div class="commemt-item" >
-  {{ if .Site.Params.utteranc.enable }}
-  <div class="utteranc">
-    <script src="https://utteranc.es/client.js"
-      repo= "{{ .Site.Params.utteranc.repo }}"
-      issue-term="{{ .Site.Params.utteranc.issueTerm }}"
-      theme="{{ default "github-light" .Site.Params.utteranc.theme }}"
-      crossorigin="anonymous"
-      async>
-    </script>
+{{ if .Site.Params.utteranc.enable }}
+  <div class="commemt-item" >
+    <div class="utteranc">
+      <script src="https://utteranc.es/client.js"
+        repo= "{{ .Site.Params.utteranc.repo }}"
+        issue-term="{{ .Site.Params.utteranc.issueTerm }}"
+        theme="{{ default "github-light" .Site.Params.utteranc.theme }}"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </div>
   </div>
-  {{ end }}
-</div>
+{{ end }}
 
 <!-- disqus -->
-<div class="commemt-item" >
-  {{ if and (not (eq .Site.DisqusShortname "")) (and (not .Params.disable_comments) (or (eq .Kind "404") (and (not .IsHome) .Content))) }}
-  <div class="disqus">
-    <div id="disqus_thread"></div>
-    <script>
-    var disqus_config = function () {
-    {{ with .Site.Params.disqusURL }}
-      this.page.url = "{{ . }}" +{{ if eq $.Kind "404" }} "/404.html" {{ else }} location.pathname{{ end }};
-    {{ end }}
-    };
-    (function() {
-      var inIFrame = function() {
-        var iframe = true;
-        try { iframe = window.self !== window.top; } catch (e) {}
-        return iframe;
+
+{{ if and (not (eq .Site.DisqusShortname "")) (and (not .Params.disable_comments) (or (eq .Kind "404") (and (not .IsHome) .Content))) }}
+  <div class="commemt-item" >
+    <div class="disqus">
+      <div id="disqus_thread"></div>
+      <script>
+      var disqus_config = function () {
+      {{ with .Site.Params.disqusURL }}
+        this.page.url = "{{ . }}" +{{ if eq $.Kind "404" }} "/404.html" {{ else }} location.pathname{{ end }};
+      {{ end }}
       };
-      if (inIFrame()) return;
-      var disqus_js = '//{{ .Site.DisqusShortname }}.disqus.com/embed.js';
-      var d = document, s = d.createElement('script');
-      s.src = disqus_js; s.async = true;
-      s.setAttribute('data-timestamp', +new Date());
-      var t = d.getElementById('disqus_thread');
-      var b = false, l = function(scroll) {
-        if (b) return;
-        (d.head || d.body).appendChild(s); b = true;
-        if (scroll) t.scrollIntoView();
-      }
-      s.onerror = function(e) {
-        if (sessionStorage.getItem('failure-note')) return;
-        t.innerText = 'Sorry, you cannot make comments because Disqus failed to load for some reason.';
-        t.style.border = '1px dashed';
-        t.style.padding = '.5em';
-        t.style.background = 'lightyellow';
-        sessionStorage.setItem('failure-note', true);
-      };
-      // show comments when the hash means to jump to a comment
-      if (location.hash.match(/^#comment-[0-9]+$/)) return l(true);
-      var c = function() {
-        if (b) return;
-        var rect = t.getBoundingClientRect();
-        if (rect.top < window.innerHeight && rect.bottom >= 0) l();
-      };
-      window.addEventListener('load', c);
-      d.addEventListener('scroll', c);
-    })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      (function() {
+        var inIFrame = function() {
+          var iframe = true;
+          try { iframe = window.self !== window.top; } catch (e) {}
+          return iframe;
+        };
+        if (inIFrame()) return;
+        var disqus_js = '//{{ .Site.DisqusShortname }}.disqus.com/embed.js';
+        var d = document, s = d.createElement('script');
+        s.src = disqus_js; s.async = true;
+        s.setAttribute('data-timestamp', +new Date());
+        var t = d.getElementById('disqus_thread');
+        var b = false, l = function(scroll) {
+          if (b) return;
+          (d.head || d.body).appendChild(s); b = true;
+          if (scroll) t.scrollIntoView();
+        }
+        s.onerror = function(e) {
+          if (sessionStorage.getItem('failure-note')) return;
+          t.innerText = 'Sorry, you cannot make comments because Disqus failed to load for some reason.';
+          t.style.border = '1px dashed';
+          t.style.padding = '.5em';
+          t.style.background = 'lightyellow';
+          sessionStorage.setItem('failure-note', true);
+        };
+        // show comments when the hash means to jump to a comment
+        if (location.hash.match(/^#comment-[0-9]+$/)) return l(true);
+        var c = function() {
+          if (b) return;
+          var rect = t.getBoundingClientRect();
+          if (rect.top < window.innerHeight && rect.bottom >= 0) l();
+        };
+        window.addEventListener('load', c);
+        d.addEventListener('scroll', c);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
   </div>
-  {{ end }}
-</div>
+{{ end }}
+
 
 <!-- valine -->
-<div class="commemt-item" >
-  <div class="valine" >
-    {{ if and .Site.Params.valine.enable (ne .Site.BaseURL "//localhost:1313/") }}
-    <!-- id 将作为查询条件 -->
+
+{{ if and .Site.Params.valine.enable (ne .Site.BaseURL "//localhost:1313/") }}
+  <div class="commemt-item" >
+    <div class="valine" >
+      <!-- id 将作为查询条件 -->
       {{- if .Site.Params.valine.visitor -}}
-      <span id="{{ .URL | relURL }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
-      {{ T "valinePV"}}
-      <span class="leancloud-visitors-count">0</span>
-      <p></p>
-      </span>
+        <span id="{{ .URL | relURL }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
+          {{ T "valinePV"}}
+          <span class="leancloud-visitors-count">0</span>
+          <p></p>
+        </span>
       {{- end }}
-    <div id="vcomments"></div>
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-    <script type="text/javascript">
-      new Valine({
-          el: '#vcomments',
-          appId: '{{ .Site.Params.valine.appId }}',
-          appKey: '{{ .Site.Params.valine.appKey }}',
-          notify: '{{ .Site.Params.valine.notify }}', 
-          verify: '{{ .Site.Params.valine.verify }}', 
-          avatar: '{{ .Site.Params.valine.avatar }}', 
-          placeholder: '{{ .Site.Params.valine.placeholder }}',
-          visitor: '{{ .Site.Params.valine.visitor }}'
-      });
-    </script>
-    {{ end }}
+      <div id="vcomments"></div>
+      <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+      <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+      <script type="text/javascript">
+        new Valine({
+            el: '#vcomments',
+            appId: '{{ .Site.Params.valine.appId }}',
+            appKey: '{{ .Site.Params.valine.appKey }}',
+            notify: '{{ .Site.Params.valine.notify }}', 
+            verify: '{{ .Site.Params.valine.verify }}', 
+            avatar: '{{ .Site.Params.valine.avatar }}', 
+            placeholder: '{{ .Site.Params.valine.placeholder }}',
+            visitor: '{{ .Site.Params.valine.visitor }}'
+        });
+      </script>
+    </div>
   </div>
-</div>
+{{ end }}
