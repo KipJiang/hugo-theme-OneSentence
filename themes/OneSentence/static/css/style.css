@@ -1,166 +1,10 @@
-/* Micro Reset */
+@import url(html.css);
+@import url(mobile.css);
+@import url(fonts.css);
+@import url(body.css);
+@import url(code.css);
 
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-button, input, select, textarea, label {
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
-  font-size: inherit;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Typography */
-
-body {
-  line-height: 1.75;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  padding: 0;
-  margin: 20px 0;
-  line-height: 1.25;
-  text-align: center;
-}
-
-h1 {
-  font-size: 32px;
-  font-weight: normal;
-}
-
-h2 {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-h3, h4, h5, h6 {
-  font-size: 19px;
-  font-weight: bold;
-  text-align: left;
-}
-
-blockquote {
-  margin: 1em 0;
-  padding: 0 2em;
-  border-left: 3px solid #ddd;
-}
-
-.content a {
-  color: rgb(221, 0, 0);
-}
-
-/* Code */
-
-pre, code {
-  font-size: .9em;
-}
-
-pre code {
-  display: block;
-  border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
-  padding: 1em;
-  overflow-x: auto;
-  line-height: 1.5;
-}
-
-code {
-  background: #f1f1f1;
-}
-
-pre code {
-  background: none;
-}
-
-/* Lists */
-
-ul, ol {
-  padding: 0 0 0 20px;
-}
-
-li {
-  margin: 5px 0;
-  padding: 0;
-}
-
-/* Links */
-
-a {
-  color: black;
-  /* color: rgb(221, 0, 0); */
-  text-decoration: none;
-  padding-bottom: 2px;
-  /* border-bottom: 1px solid; */
-}
-
-a:hover {
-  color: #33b;
-  text-decoration: none;
-}
-
-sup a {
-  border-bottom: none;
-}
-
-/* Miscellanea */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid;
-  margin: 30px auto;
-  padding: 0;
-  max-width: auto;
-}
-
-.copyright {
-  text-align: center;
-}
-
-.post-nav {
-  display: flex;
-  justify-content: space-between;
-  font-weight: bold;
-}
-
-.nav-next {
-  margin-left: 1em;
-  text-align: right;
-}
-
-.nav-prev {
-  margin-right: 1em;
-}
-
-.comments {
-  margin-top: 1em;
-}
-
-/* Layout */
-
-body {
-  margin: auto;
-  padding: 3em 0;
-}
-
+/* Header */
 .header {
   text-align: right;
   /* position: fixed; */
@@ -168,14 +12,6 @@ body {
   margin-left: -21em;
   width: 15em;
   /* top: 5em; */
-}
-
-.main {
-  width: 800px;
-  padding: 2em 3em;
-  margin: auto;
-  /* border-left: 1px solid gray; */
-  min-height: calc(100vh - 60px);
 }
 
 /* header */
@@ -231,6 +67,14 @@ body {
   display: none;
 }
 
+/* main */
+.main {
+  width: 800px;
+  padding: 2em 3em;
+  margin: auto;
+  /* border-left: 1px solid gray; */
+  min-height: calc(100vh - 60px);
+}
 /* Main */
 
 .main .title h1 {
@@ -267,6 +111,45 @@ body {
   margin: 0.5em 1.3em;
 }
 
+/* article footer */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.nav-next {
+  margin-left: 1em;
+  text-align: right;
+}
+
+.nav-prev {
+  margin-right: 1em; 
+}
+
+.comments {
+  margin-top: 1em;
+}
+
+/* site footer */
+.copyright {
+  text-align: center;
+}
+
+.post-content a {
+  color: #dd0000;
+}
+
+.post-content a:hover {
+  color: #33b;
+}
+
+
+
+
+
+
+
 .hljs {
   padding: 1em;
 }
@@ -277,25 +160,7 @@ body {
   font-size: .9em;
 }
 
-/* Tables */
 
-table {
-  margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
-}
-
-table thead th {
-  border-bottom: 1px solid #666;
-}
-
-th, td {
-  padding: 5px;
-}
-
-thead, tfoot, tr:nth-child(even) {
-  background: #f8f8f8;
-}
 
 /**
  * Utility Styles
@@ -306,194 +171,4 @@ thead, tfoot, tr:nth-child(even) {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-/**
- * -------------------------------------------------------------------------
- *  Media Queries
- * -------------------------------------------------------------------------
- *
- * The @viewport tag does the same thing as
- *
- *   <meta name="viewport" content="width=device-width">
- *
- * but in the future W3C standard way. The -ms- prefix is required for
- * IE10+ to render responsive styling in Windows 8 "snapped" views;
- * IE10+ does not honour the meta tag.
- */
-
-@-ms-viewport {
-  width: device-width;
-}
-
-@viewport {
-  width: device-width;
-}
-
-/* Tablet screens and smaller */
-
-@media screen and (max-width: 960px) {
-
-  body {
-    width: auto;
-    max-width: 700px;
-  }
-
-  .header {
-    width: auto;
-    float: none;
-    padding: 20px 0 60px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-bottom: 3px solid black;
-  }
-
-  .main {
-    width: auto;
-    padding: 40px 10px;
-    margin-left: 0;
-    border-left: none;
-    min-height: auto;
-  }
-
-  .header h1 {
-    text-align: center;
-  }
-
-  .header .tagline {
-    text-align: center;
-  }
-
-  .header .menu {
-    direction: ltr;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .header .menu ul {
-    text-align: left;
-    margin: 0;
-    padding: 0;
-  }
-
-  .header .menu ul ul {
-    margin: 0;
-  }
-
-  .header .menu li {
-    border-bottom: 1px solid;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .header .menu li:first-child {
-    border-top: 1px solid;
-  }
-
-  .header .menu li li:last-child {
-    border-bottom: none;
-  }
-
-  .header .menu a {
-    display: block;
-    padding: 15px 20px;
-    border-bottom: none;
-  }
-
-  .header .menu li li a {
-    padding-left: 30px;
-  }
-
-  .header .menu li li::before {
-    content: none;
-  }
-
-  .header .menu li li a::before {
-    content: "•\00a0\00a0\00a0";
-  }
-
-  #menu-label {
-    display: inline-block;
-    padding: 0 20px;
-    height: 50px;
-    border: 1px solid;
-    cursor: pointer;
-    line-height: 50px;
-    color: #333;
-    font-size: 20px;
-    margin-top: 10px;
-  }
-
-  #menu-label:hover, #menu-label:focus {
-    border: 1px solid #888;
-  }
-
-  #menu-label .icon {
-    padding-right: 8px;
-    width: 30px;
-  }
-
-  #menu-check ~ label .close-icon {
-    display: none;
-  }
-
-  #menu-check ~ label .open-icon {
-    display: inline-block;
-  }
-
-  #menu-check:checked ~ label .close-icon {
-    display: inline-block;
-  }
-
-  #menu-check:checked ~ label .open-icon {
-    display: none;
-  }
-
-  #menu-check ~ ul {
-    display: none;
-  }
-
-  #menu-check:checked ~ ul {
-    display: block;
-    margin-top: 50px;
-    margin-bottom: 0;
-  }
-}
-
-/* Landscape phone screens and smaller */
-
-@media screen and (max-width: 720px) {
-}
-
-/* Portrait phone screens */
-
-@media screen and (max-width: 480px) {
-
-  body {
-    font-size: 16px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  h3, h4, h5, h6 {
-    font-size: 16px;
-  }
-
-  pre, code {
-    font-size: 12px;
-  }
-
-  .header {
-    padding-top: 0;
-  }
-
 }

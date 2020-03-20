@@ -1,0 +1,106 @@
+/* Typography */
+body {
+  font-family: 'Times New Roman', Times, serif, 'Microsoft YaHei';
+  line-height: 1.5;
+  margin: auto;
+  padding: 3em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 1em 0 0 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h3, h4, h5, h6 {
+  font-size: 19px;
+  text-align: left;
+}
+
+/* Block Quote */
+blockquote {
+  padding: 0 1em;
+  margin: 14px 0;
+  border: .1em dashed #d0dfda;
+  border-radius: .5em;
+  color: #393939;
+  background: #f9f9f9;
+  font-style: normal !important;
+  font-family: Georgia, 'Microsoft YaHei';
+}
+
+/* Lists */
+/* ul, ol {
+  padding: 0 0 0 20px;
+}
+
+li {
+  margin: 5px 0;
+  padding: 0;
+} */
+li {
+  padding:.2em 0;
+}
+
+ol, ul {
+  list-style-position:inside;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin-left:1em;
+}
+
+/* Links */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #33b;
+  padding-bottom: .1em;
+  border-bottom: .1ex dashed
+}
+
+sup a {
+  border-bottom: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  margin: 30px auto;
+  border-top: .1ex dashed;
+  max-width: auto;
+}
+
+/* Tables */
+
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+table thead th {
+  border-bottom: 1px solid #666;
+}
+
+th, td {
+  padding: 5px;
+}
+
+thead, tfoot, tr:nth-child(even) {
+  background: #efefef;
+}
