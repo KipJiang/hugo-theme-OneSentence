@@ -69,7 +69,7 @@
 
 <!-- valine -->
 
-{{ if and .Site.Params.valine.enable (ne .Site.BaseURL "//localhost:1313/") }}
+{{ if and .Site.Params.valine.enable (ne .Site.BaseURL "http://localhost:1313/") }}
   <div class="commemt-item" >
     <div class="valine" >
       <!-- id 将作为查询条件 -->
