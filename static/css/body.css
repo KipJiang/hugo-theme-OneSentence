@@ -78,16 +78,18 @@ hr {
 
 table {
   margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
+  border: 1px solid #ddd;
+  border-spacing: 1px;
 }
 
-table thead th {
-  border-bottom: 1px solid #666;
+thead tbody {
+  border: 1px solid #ddd;
 }
 
 th, td {
-  padding: 5px;
+  margin: 1px;
+  padding: 1px;
+  border: 1px solid #ddd;
 }
 
 thead, tfoot, tr:nth-child(even) {
