@@ -12,7 +12,7 @@
       <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) }}"> {{ $key }} ({{ len $value }}) </a>
     {{ end }}
   </div>
-
+  <hr>
   <div class="posts-list">
       {{ range .Data.Terms.ByCount }}
         <div class="list-term">{{ .Term }}</div>

@@ -114,8 +114,12 @@ To specify a directory of image files:
   - not set - smooth transition (default)
   - `none` - hard transition
 
+- Normal Example
+
+![local test](/img/test.png)
+
 ![first](https://tse1-mm.cn.bing.net/th/id/OIP.q2VueH4pq580yfKsJDBFrgHaE5?w=700&h=600&c=7&o=5&pid=1.7)
 
-![second](https://tse4-mm.cn.bing.net/th/id/OIP.nGg0OQZ0fCoBOPGjGqCX2gHaE7?w=300&h=195&c=7&o=5&pid=1.7)
+- Normal Example
 
-![third](https://tse2-mm.cn.bing.net/th/id/OIP.-kXq5i8wGpy2WA2caytL6AHaFj?w=288&h=209&c=7&o=5&pid=1.7)
+{{ figure src='/img/test.png' title='figure test'}}
