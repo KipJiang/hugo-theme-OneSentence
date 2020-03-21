@@ -38,19 +38,19 @@ enableEmoji = true
 
 # comments configure
 [params.utteranc]   # utteranc is a comment system based on GitHub issues. see https://utteranc.es
-    enable = 
-    repo = 
+    enable = false
+    repo = ""
     issueTerm = "pathname"
 
 [params.valine]
-enable = 
-appId = 
-appKey = 
-notify = true   # mail notifier , https://github.com/xCss/Valine/wiki
-verify = true   # Verification code
-avatar = 'mm' 
-placeholder = '说点什么吧...（请填写邮件，接收回复提醒）'
-visitor = 
+    enable = false
+    appId = ""
+    appKey = ""
+    notify = true   # mail notifier , https://github.com/xCss/Valine/wiki
+    verify = true   # Verification code
+    avatar = 'mm'
+    placeholder = 'Say something... (please fill in the email to receive the reply)'
+    visitor = true
 
 highlightjsVersion = "9.12.0"
 highlightjsCDN = "//cdn.bootcss.com"
