@@ -11,4 +11,4 @@ And I am also inspired by [山羊博客](http://blog.fungo.me/), a very simple a
 
 I hope you will love this theme, and write more posts.
 
-The source code is [on Github]().
+The source code is [on Github](https://github.com/KipJiang/hugo-theme-OneSentence).
