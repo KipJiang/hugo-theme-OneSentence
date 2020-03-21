@@ -13,3 +13,7 @@ git submodule add https://github.com/KipJiang/hugo-theme-OneSentence.git theme/O
 ```
 
 then, change the baseurl to your own site.
+
+- Demo
+
+![demo](/static/img/shortcut.png)
