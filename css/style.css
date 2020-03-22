@@ -132,9 +132,9 @@
 
 /* article footer */
 .post-footer {
+  margin: 1em .5em 1em .5em;
   display: flex;
   justify-content: space-between;
-  margin: 0 .5em 0 .5em;
 }
 
 .post-categories a {
@@ -143,10 +143,6 @@
 
 .post-categories a:hover {
   color: #33b;
-}
-
-.lastmodified{
-  text-align: right;
 }
 
 .post-nav {
