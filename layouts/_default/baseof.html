@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ block "head" . }} {{ end }}
+
+  {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
+  <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}">
+
+    <div class="container" >
+      <div class="main" role="main" >
+
+        {{ block "header" . }} {{ end }}
+
+        <article class="article">
+          {{ block "article-meta" . }} {{ end }}
+          {{ block "table-of-content" . }} {{ end }}
+          {{ block "content" . }} {{ end }}
+          {{ partial "footer_article.html" . }}
+        </article>
+
+        {{ partial "footer_site.html" . }}
+        {{ template "_internal/google_analytics.html" . }}
+
+      </div>
+    </div>
+
+  </body>
+</html>

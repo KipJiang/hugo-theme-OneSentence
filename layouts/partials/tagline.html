@@ -1,0 +1,5 @@
+  <h1 class="author" ><a href="{{ relURL "/" }}">{{ .Site.Title }}</a></h1>
+  <!-- <h1>{{ .Site.Title }}</h1> -->
+  {{ with .Site.Params.Description }}
+    <p class="tagline">{{ . | markdownify }}</p>
+  {{ end }}
