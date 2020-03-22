@@ -9,7 +9,7 @@
 {{ define "content" }}
   <div class="terms">
     {{ range $key, $value := .Data.Terms }}
-      <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) }}"> {{ $key }} ({{ len $value }}) </a>
+      <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}"> {{ $key }} ({{ len $value }}) </a>
     {{ end }}
   </div>
   <hr>
