@@ -131,9 +131,10 @@
 }
 
 /* article footer */
-.post-categories {
-  margin-top: .5em;
-  margin-left: .5em;
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 .5em 0 .5em;
 }
 
 .post-categories a {
@@ -142,6 +143,10 @@
 
 .post-categories a:hover {
   color: #33b;
+}
+
+.lastmodified{
+  text-align: right;
 }
 
 .post-nav {
