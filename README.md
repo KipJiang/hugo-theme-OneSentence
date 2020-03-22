@@ -14,6 +14,6 @@ git submodule add https://github.com/KipJiang/hugo-theme-OneSentence.git themes/
 
 then, change the baseurl to your own site.
 
-- Demo
+- [Demo](https://kipjiang.github.io/hugo-theme-OneSentence)
 
-![demo](/static/img/shortcut.png)
+![demo](https://github.com/KipJiang/hugo-theme-OneSentence/raw/master/static/img/shortcut.png)
