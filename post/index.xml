@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on One Sentence</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://kipjiang.github.io/hugo-theme-OneSentence/post/</link>
     <description>Recent content in Post on One Sentence</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Mar 2020 21:53:26 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kipjiang.github.io/hugo-theme-OneSentence/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>中文测试</title>
-      <link>http://localhost:1313/post/2020/03/17/chinese-test/</link>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/post/2020/03/17/chinese-test/</link>
       <pubDate>Tue, 17 Mar 2020 22:30:34 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/2020/03/17/chinese-test/</guid>
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/post/2020/03/17/chinese-test/</guid>
       <description>荷塘月色  朱自清（1898年11月22日—1948年8月12日），原名自华，号实秋，后改名自清，字佩弦。原籍浙江绍兴，出生于江苏省东海县（今连云港市东海县平明镇），后随父定居扬州。中国现代散文家、诗人、学者、民主战士。
 1916年中学毕业后成功考入北京大学预科。1919年开始发表诗歌。1921年，加入文学研究会，成立“为人生”代表作家。1922年，与叶圣陶等创办了我国新文学史上第一个诗刊——《诗》月刊，倡导新诗。次年，发表长诗《毁灭》，引起当时诗坛广泛注意，继而写《桨声灯影里的秦淮河》，被誉为“白话美术文的模范”。1924年，诗文集《踪迹》出版。1925年，应清华大学之聘，任中文系教授。创作由诗歌转向散文，同时致力于古典文学研究。“三·一八”惨案后，他撰写《执政府大屠杀记》等文章，声讨军阀政府暴行。1928年，第一部散文集《背影》出版。1930年，代理清华大学中文系主任。次年，留学英国，并漫游欧洲数国，著有《欧游杂记》、《伦敦杂记》。1932年归国，继任清华大学中文系教授兼系主任。“一二·九”运动中，他同学生一道上街游行。抗日战争爆发后，随校南迁，任西南联大教授。1946年10月返北平，受校方委托主编《闻一多全集》。同时，积极参加各项民主活动。1948年8月12日因胃穿孔病逝于北平，年仅50岁。
 所作《背影》、《荷塘月色》等篇，为中国现代散文早期代表作，由《朱自清全集》出版。
@@ -37,29 +37,29 @@
     
     <item>
       <title>Footnote Preview</title>
-      <link>http://localhost:1313/post/2018/03/01/footnote-notes/</link>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/post/2018/03/01/footnote-notes/</link>
       <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/2018/03/01/footnote-notes/</guid>
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/post/2018/03/01/footnote-notes/</guid>
       <description>&lt;p&gt;Hugo-theme-jane optimized for footnote. When you mouse hover the footnote&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; , footnote content will be displayed.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>English Creating a New Theme</title>
-      <link>http://localhost:1313/post/2017/08/31/createing-new-theme/</link>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/post/2017/08/31/createing-new-theme/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/2017/08/31/createing-new-theme/</guid>
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/post/2017/08/31/createing-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>A Plain Markdown Post</title>
-      <link>http://localhost:1313/post/2016/02/14/plain-markdown-post/</link>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/post/2016/02/14/plain-markdown-post/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2016/02/14/plain-markdown-post/</guid>
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/post/2016/02/14/plain-markdown-post/</guid>
       <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
 1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
@@ -67,20 +67,20 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title>Lorem Ipsum</title>
-      <link>http://localhost:1313/post/2015/07/23/lorem-ipsum/</link>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/post/2015/07/23/lorem-ipsum/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2015/07/23/lorem-ipsum/</guid>
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/post/2015/07/23/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Quisque mattis volutpat lorem vitae feugiat.</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://localhost:1313/post/2014/04/02/hugo-template-primer/</link>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/post/2014/04/02/hugo-template-primer/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/04/02/hugo-template-primer/</guid>
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/post/2014/04/02/hugo-template-primer/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>
