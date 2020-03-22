@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+lastmod: 
 author: 
 notShowHome: false
 
@@ -9,8 +10,7 @@ slug:
 description: 
 
 categories:
-    - examples
+    - 
 tags:
-    - test
+    - 
 ---
-

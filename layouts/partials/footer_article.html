@@ -1,15 +1,22 @@
 <footer>
   {{ if .IsPage }}
-    {{ with .Params.categories }}
-      <div class="post-categories">
-        {{ range . }}
-          {{- $name := . -}}
-          {{- with $.Site.GetPage "taxonomy" (printf "categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "categories/%s" ($name | urlize))) -}}
-            &#9900; <a href="{{ .Permalink }}"> {{ $name }} </a>
-          {{ end -}}
-        {{ end }}
-      </div>
-    {{ end }}
+    <div class="post-footer" >
+      {{ with .Params.categories }}
+        <span class="post-categories">
+          {{ range . }}
+            {{- $name := . -}}
+            {{- with $.Site.GetPage "taxonomy" (printf "categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "categories/%s" ($name | urlize))) -}}
+              &#9900; <a href="{{ .Permalink }}"> {{ $name }} </a>
+            {{ end -}}
+          {{ end }}
+        </span>
+      {{ end }}
+      {{ if and .Params.lastmod (gt .Params.lastmod .Params.date)}}
+        <span class="lastmodified">
+          update @ {{ .Lastmod.Format "2006-01-02" }}
+        </span>
+      {{ end }}
+    </div>
   {{ end }}
 
   {{ if and .IsPage (not .Params.Notshowhome) }}
