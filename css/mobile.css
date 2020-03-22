@@ -1,0 +1,186 @@
+/**
+* -------------------------------------------------------------------------
+*  Media Queries
+* -------------------------------------------------------------------------
+*
+* The @viewport tag does the same thing as
+*
+*   <meta name="viewport" content="width=device-width">
+*
+* but in the future W3C standard way. The -ms- prefix is required for
+* IE10+ to render responsive styling in Windows 8 "snapped" views;
+* IE10+ does not honour the meta tag.
+*/
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+/* Tablet screens and smaller */
+
+@media screen and (max-width: 960px) {
+  body {
+    width: auto;
+    max-width: 700px;
+  }
+
+  .header {
+    width: auto;
+    float: none;
+    padding: 20px 0 60px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 3px solid black;
+  }
+
+  .main {
+    width: auto;
+    padding: 40px 10px;
+    margin-left: 0;
+    border-left: none;
+    min-height: auto;
+  }
+
+  .header h1 {
+    text-align: center;
+  }
+
+  .header .tagline {
+    text-align: center;
+  }
+
+  .header .menu {
+    direction: ltr;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header .menu ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header .menu ul ul {
+    margin: 0;
+  }
+
+  .header .menu li {
+    border-bottom: 1px solid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header .menu li:first-child {
+    border-top: 1px solid;
+  }
+
+  .header .menu li li:last-child {
+    border-bottom: none;
+  }
+
+  .header .menu a {
+    display: block;
+    padding: 15px 20px;
+    border-bottom: none;
+  }
+
+  .header .menu li li a {
+    padding-left: 30px;
+  }
+
+  .header .menu li li::before {
+    content: none;
+  }
+
+  .header .menu li li a::before {
+    content: "•\00a0\00a0\00a0";
+  }
+
+  #menu-label {
+    display: inline-block;
+    padding: 0 20px;
+    height: 50px;
+    border: 1px solid;
+    cursor: pointer;
+    line-height: 50px;
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #menu-label:hover, #menu-label:focus {
+    border: 1px solid #888;
+  }
+
+  #menu-label .icon {
+    padding-right: 8px;
+    width: 30px;
+  }
+
+  #menu-check ~ label .close-icon {
+    display: none;
+  }
+
+  #menu-check ~ label .open-icon {
+    display: inline-block;
+  }
+
+  #menu-check:checked ~ label .close-icon {
+    display: inline-block;
+  }
+
+  #menu-check:checked ~ label .open-icon {
+    display: none;
+  }
+
+  #menu-check ~ ul {
+    display: none;
+  }
+
+  #menu-check:checked ~ ul {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+}
+
+/* Landscape phone screens and smaller */
+
+@media screen and (max-width: 720px) {
+}
+
+/* Portrait phone screens */
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3, h4, h5, h6 {
+    font-size: 16px;
+  }
+
+  pre, code {
+    font-size: 12px;
+  }
+
+  .header {
+    padding-top: 0;
+  }
+}

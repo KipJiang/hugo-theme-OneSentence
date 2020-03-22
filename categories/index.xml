@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on One Sentence</title>
+    <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/</link>
+    <description>Recent content in Categories on One Sentence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Mar 2020 21:53:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://kipjiang.github.io/hugo-theme-OneSentence/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/post/</link>
+      <pubDate>Wed, 18 Mar 2020 21:53:26 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>中文</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/%E4%B8%AD%E6%96%87/</link>
+      <pubDate>Tue, 17 Mar 2020 22:30:34 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/%E4%B8%AD%E6%96%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>例子</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/%E4%BE%8B%E5%AD%90/</link>
+      <pubDate>Tue, 17 Mar 2020 22:30:34 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/%E4%BE%8B%E5%AD%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docs</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/docs/</link>
+      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Index</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/index/</link>
+      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/math/</link>
+      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/shortcodes/</link>
+      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/english/</link>
+      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/theme/</link>
+      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/example/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/hugo/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Syntax-Highlighting</title>
+      <link>https://kipjiang.github.io/hugo-theme-OneSentence/categories/syntax-highlighting/</link>
+      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
+      
+      <guid>https://kipjiang.github.io/hugo-theme-OneSentence/categories/syntax-highlighting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

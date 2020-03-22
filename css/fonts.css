@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'angelina';
+  src: url(../font/angelina.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Optima, 'Lucida Sans', Calibri, Candara, Arial, 'source-han-serif-sc', 'Source Han Serif SC', 
+  'Source Han Serif CN', 'Source Han Serif TC', 'Source Han Serif TW', 'Source Han Serif', 'Songti SC', 
+  'Microsoft YaHei', sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+code {
+  font-family: "Lucida Console", 'Andale Mono', 'STKaiti', 'KaiTi', 'SimKai', monospace;
+}
+pre code {
+  font-family: Consolas, "Lucida Console", Monaco, 'STKaiti', 'KaiTi', 'SimKai', monospace;
+}

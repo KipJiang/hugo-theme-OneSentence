@@ -1,0 +1,25 @@
+/* Code Block */
+pre code {
+  font-size: 0.9em;
+  display: block;
+  overflow: auto;
+  border-style: dotted;
+  border-color: #ddd;
+  border-width: 0.1em;
+  padding: 0.5em 0.9em;
+  margin: auto;
+  line-height: 1.5;
+  /* background: #2c3e50; */
+  background: #2d2d2d;
+  color: #efefef;
+}
+
+/* Code in Line */
+code {
+  background: #f3f3f3;
+  padding: .1ex;
+  border-radius: .2rex;
+  border-style: dotted;
+  border-width: .1ex;
+  max-width: auto;
+}
