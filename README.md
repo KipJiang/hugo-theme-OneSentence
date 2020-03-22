@@ -9,7 +9,7 @@ I hope you will love this theme, and write more posts.
 - Usage
 
 ```
-git submodule add https://github.com/KipJiang/hugo-theme-OneSentence.git theme/OneSentence
+git submodule add https://github.com/KipJiang/hugo-theme-OneSentence.git themes/OneSentence
 ```
 
 then, change the baseurl to your own site.
