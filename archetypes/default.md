@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replaceRE "[0-9]{2,}" "" .Name | replaceRE "^-*" "" | replaceRE "-" " " | title }}"
 date: {{ .Date }}
 lastmod: 
-author: 
+author: Kip
 notShowHome: false
 
 toc: true
