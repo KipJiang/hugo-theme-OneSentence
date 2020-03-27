@@ -36,7 +36,6 @@ enableEmoji = true
     description = "Hugo theme OneSentence, using one sentence to describe your article, ported from hugo-ivy of YihuiXie."
     footer = "[Kip Jiang](/) &#183; [Github](https://github.com/KipJiang)"
 
-# comments configure
 [params.utteranc]   # utteranc is a comment system based on GitHub issues. see https://utteranc.es
     enable = false
     repo = ""

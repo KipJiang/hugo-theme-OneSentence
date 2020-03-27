@@ -1,1 +1,4 @@
 /public/
+/content/
+config.toml
+demo-deploy.sh
