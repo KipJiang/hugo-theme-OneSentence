@@ -69,17 +69,17 @@
 
 <!-- valine -->
 
-{{ if and .Site.Params.valine.enable (ne .Site.BaseURL "http://localhost:1313/") }}
+{{ if .Site.Params.valine.enable }}
   <div class="commemt-item" >
     <div class="valine" >
       <!-- id 将作为查询条件 -->
-      {{- if .Site.Params.valine.visitor -}}
+      {{ if and (.Site.Params.valine.visitor) (ne .Site.BaseURL "http://localhost:1313/") }}
         <span id="{{ .URL | relURL }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
           {{ T "valinePV"}}
           <span class="leancloud-visitors-count">0</span>
           <p></p>
         </span>
-      {{- end }}
+      {{ end }}
       <div id="vcomments"></div>
       <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
       <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
@@ -88,8 +88,6 @@
             el: '#vcomments',
             appId: '{{ .Site.Params.valine.appId }}',
             appKey: '{{ .Site.Params.valine.appKey }}',
-            notify: '{{ .Site.Params.valine.notify }}', 
-            verify: '{{ .Site.Params.valine.verify }}', 
             avatar: '{{ .Site.Params.valine.avatar }}', 
             placeholder: '{{ .Site.Params.valine.placeholder }}',
             visitor: '{{ .Site.Params.valine.visitor }}'
