@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on One Sentence</title>
+    <title>Hugo Theme on One Sentence</title>
     <link>https://kipjiang.github.io/hugo-theme-OneSentence/</link>
-    <description>Recent content in Home on One Sentence</description>
+    <description>Recent content in Hugo Theme on One Sentence</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Mar 2020 01:01:52 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2020 21:53:26 +0800</lastBuildDate>
     
 	<atom:link href="https://kipjiang.github.io/hugo-theme-OneSentence/index.xml" rel="self" type="application/rss+xml" />
     
@@ -105,7 +105,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       
       <guid>https://kipjiang.github.io/hugo-theme-OneSentence/note/2017/06/13/a-quick-note/</guid>
       <description>To me, the two most impressive websites based on blogdown are:
- Rob J Hyndman&amp;lsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al.  I&amp;rsquo;m sure there will be more.</description>
+ Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al.  I&amp;rsquo;m sure there will be more.</description>
     </item>
     
     <item>

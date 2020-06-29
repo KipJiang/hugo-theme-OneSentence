@@ -61,11 +61,15 @@
     
     
       <li>
-        <a href="/hugo-theme-OneSentence/">Home</a>
+        <a href="/hugo-theme-OneSentence/about/">About</a>
       </li>
     
       <li>
-        <a href="/hugo-theme-OneSentence/about/">About</a>
+        <a href="/hugo-theme-OneSentence/post/">Posts</a>
+      </li>
+    
+      <li>
+        <a href="/hugo-theme-OneSentence/note/">Notes</a>
       </li>
     
       <li>
@@ -121,10 +125,10 @@
 </ol>
 <p>There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:</p>
 <ul>
-<li><input checked="" disabled="" type="checkbox">Write an R package.</li>
-<li><input disabled="" type="checkbox">Write a book.</li>
-<li><input disabled="" type="checkbox">&hellip;</li>
-<li><input disabled="" type="checkbox">Profit!</li>
+<li><input checked="" disabled="" type="checkbox"> Write an R package.</li>
+<li><input disabled="" type="checkbox"> Write a book.</li>
+<li><input disabled="" type="checkbox"> &hellip;</li>
+<li><input disabled="" type="checkbox"> Profit!</li>
 </ul>
 <p>Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (<a href="https://github.com/yihui/hugo-xmin">hugo-xmin</a>) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: <code>`$ $`</code>; display style: <code>`$$ $$`</code>), e.g., <code>$S_n = \sum_{i=1}^n X_i$</code>.^[This is because we have to protect the math expressions from being interpreted as Markdown.] For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.</p>
 <p>When creating a new post, I recommend you to use the RStudio addin &ldquo;New Post&rdquo;:</p>
@@ -242,7 +246,7 @@
   <div class="commemt-item" >
     <div class="utteranc">
       <script src="https://utteranc.es/client.js"
-        repo= "KipJiang/comments"
+        repo= "KipJiang/hugo-theme-OneSentence"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
